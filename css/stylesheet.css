@@ -2,6 +2,8 @@
  margin: 0;
  padding: 0;
 }
+@media screen and (min-width:767px) {
+/*pc用のcssを記述*/
 body {
   width: 1028px;
   margin: 0 auto;
@@ -59,4 +61,19 @@ body {
   position: absolute;
   bottom: 5px;
   right: 0px;
+}
+}
+
+@media only screen and (min-width:479px) and (max-width:767px) {
+/*tablet用のcssを記述*/
+
+
+}
+@media screen and (max-width:479px) {
+/*スマホ用のcssを記述*/
+body {
+  width: 828px;
+  margin: 0 auto;
+}
+
 }
